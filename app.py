@@ -30,5 +30,5 @@ def predict():
     print(output)
     return render_template('home.html', prediction_text="An individual (here woman) had atleast one affair is : {}".format(output))
 
-if __name__=="__main__":
-    app.run(debug=True)   
+# if __name__=="__main__":
+#     app.run(debug=True)   
